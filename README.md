@@ -45,7 +45,10 @@ The enclosure's external diameter should be 32mm.
 
 ## Circuit Diagram
 
-![image](https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/9cd0be8d-f89e-4f63-b544-4384bd8aee65)
+![image](https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/c1cf090b-b5fe-4a04-be6e-29267755cb27)
+
+The circuit has echo cancellation (receiver does not work whilst data is being transmitted).  R2 has been chosen for 3.3V operation; the IR LED forward current is just under 20mA @ 1.27V.  The circuit has not been tested on 5V but R2 will need to be changed (should be around 185 Ohms).
+
 
 ## Protocol (readout)
 ## Protocol (Mode C)

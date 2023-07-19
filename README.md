@@ -23,8 +23,14 @@ There are off the shelf cables and software available (where is the fun in that?
 ## The Optical Port
 ## Hardware Required
 
+I made up these PCBs, but you will require a round enclosure with some neodimium magnets.  This was not done as part of this project but it's possible to 3D print then, or perhaps turn them on wood lathe.
+
 <img src="https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/a94541fe-627d-4af4-a6b4-9aaf8cf2de7b" width=25% height=25%>
 <img src="https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/3c82cd81-d4f8-4d46-882d-2e1977566824" width=25% height=25%>
+
+You can buy the boards above from my eBay listing [here](https://www.ebay.co.uk/itm/204371156344).
+
+## Circuit Diagram
 
 ## Protocol (readout)
 ## Protocol (Mode C)

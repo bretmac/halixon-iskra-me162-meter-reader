@@ -30,6 +30,15 @@ I made up these PCBs, but you will require a round enclosure with some neodimium
 
 You can buy the boards above from my eBay listing [here](https://www.ebay.co.uk/itm/204371156344).
 
+The IR LED and IR Photodiode are 5mm in diameter.
+
+The LED centres are 6.5mm apart.
+
+The PCB is 28mm in diameter.
+
+The enclosure diameter should be 32mm.
+
+
 ## Circuit Diagram
 
 ## Protocol (readout)

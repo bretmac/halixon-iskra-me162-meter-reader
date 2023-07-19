@@ -21,7 +21,11 @@ Inparticular, it will detail:
 There are off the shelf cables and software available (where is the fun in that?).  They are pricey for what they are and a particular free Android app is just a complete ruse for selling cables at rip-off prices (£100 or more).   You have been warned.
 
 ## The Optical Port
-## Hardware Needed
+## Hardware Required
+
+<img src="https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/a94541fe-627d-4af4-a6b4-9aaf8cf2de7b" width=25% height=25%>
+<img src="https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/3c82cd81-d4f8-4d46-882d-2e1977566824" width=25% height=25%>
+
 ## Protocol (readout)
 ## Protocol (Mode C)
 ## CRC Calculations

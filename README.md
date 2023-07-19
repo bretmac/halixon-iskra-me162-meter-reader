@@ -21,6 +21,10 @@ Inparticular, it will detail:
 There are off the shelf cables and software available (where is the fun in that?).  They are pricey for what they are and a particular free Android app is just a complete ruse for selling cables at rip-off prices (£100 or more).   You have been warned.
 
 ## The Optical Port
+
+The optical port is an international standard: IEC 62056-21.
+
+
 ## Hardware Required
 
 I made up these PCBs, but you will require a round enclosure with some neodimium magnets.  This was not done as part of this project but it's possible to 3D print then, or perhaps turn them on wood lathe.

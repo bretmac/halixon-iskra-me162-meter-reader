@@ -45,6 +45,8 @@ The enclosure's external diameter should be 32mm.
 
 ## Circuit Diagram
 
+![image](https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/9cd0be8d-f89e-4f63-b544-4384bd8aee65)
+
 ## Protocol (readout)
 ## Protocol (Mode C)
 ## CRC Calculations

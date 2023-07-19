@@ -40,7 +40,7 @@ The LED centres are 6.5mm apart.
 
 The PCB is 28mm in diameter.
 
-The enclosure diameter should be 32mm.
+The enclosure's external diameter should be 32mm.
 
 
 ## Circuit Diagram

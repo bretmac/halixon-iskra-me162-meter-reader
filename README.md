@@ -66,6 +66,8 @@ Stop Bits|1
 ## Protocol (Mode C)
 ## Checksum Calculation
 
+A worked example of ```<STX>(0001034.727*kWh)<ETX>```
+
 ![image](https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/270ca708-8fb1-4f2d-b6e1-f14f42398400)
 
 ```

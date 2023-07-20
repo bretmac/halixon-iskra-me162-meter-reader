@@ -64,7 +64,7 @@ Parity|Even
 Stop Bits|1
 
 ## Protocol (Mode C)
-## CRC Calculations
+## Checksum Calculation
 
 ```
 unsigned char calculate_bcc(unsigned char *packet, int length)

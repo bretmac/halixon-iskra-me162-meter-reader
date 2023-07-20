@@ -54,6 +54,20 @@ The circuit has echo cancellation (receiver does not work whilst data is being t
 ## Protocol (Mode C)
 ## CRC Calculations
 
+```
+unsigned char calculate_bcc(unsigned char *packet, int length)
+{
+    unsigned char checksum = 0;
+
+    for (int i = 1; i < length - 1; i++)
+    {
+        checksum ^= packet[i];
+    }
+
+    return checksum;
+}
+```
+
 ## Example Output
 
 This is the JSON output from my own ESP32-S3 implementation.  This is being sent to an MQTT broker every five seconds.

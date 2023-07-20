@@ -66,6 +66,8 @@ Stop Bits|1
 ## Protocol (Mode C)
 ## Checksum Calculation
 
+![image](https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/85a5a3ce-3395-4a2b-b2b6-5e4071d37391)
+
 ```
 unsigned char calculate_bcc(unsigned char *packet, int length)
 {

@@ -51,6 +51,18 @@ The circuit has echo cancellation (receiver does not work whilst data is being t
 
 
 ## Protocol (readout)
+
+The simplest way to receive meter readings is to just send a sign-on request and wait for a few seconds.
+
+The UART settings you need are as follows:
+
+Name|Value
+---|---
+Baud Rate|300
+Data Bits|7
+Parity|Even
+Stop Bits|1
+
 ## Protocol (Mode C)
 ## CRC Calculations
 

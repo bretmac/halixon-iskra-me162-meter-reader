@@ -91,10 +91,10 @@ This is the JSON output from my own ESP32-S3 implementation.  This is being sent
 
 ```
 {
-  "uart_channel_number:": 1,
+  "uart_channel_number": 1,
   "meter_serial_number": "12345678",
-  "meter_import": "0001362.414*kWh",
-  "meter_export": "0001031.432*kWh",
+  "meter_import": 1362.414,
+  "meter_export": 1031.432,
   "timestamp": 1689836885,
   "timestamp_msec": 345
 }

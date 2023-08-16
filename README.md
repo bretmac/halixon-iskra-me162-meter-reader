@@ -99,3 +99,73 @@ This is the JSON output from my own ESP32-S3 implementation.  This is being sent
   "timestamp_msec": 345
 }
 ```
+
+## Home Assistant
+
+These readings are being shown in my Home Assistant Dashboad as shown here:
+
+![image](https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/b614910f-e952-4b28-9ea9-1a2c3c603b89)
+
+![image](https://github.com/bretmac/halixon-iskra-me162-meter-reader/assets/44399243/10652eac-82b4-4f85-8062-e20ab62a9e40)
+
+You need to install Mosquitto MQTT Broker and add the following sensors to your ```configuration.yaml```
+
+```
+##########################
+## Utility Meter Reader ##
+##########################
+
+
+    - sensor:
+        name: "Utility Export"
+        state_topic: "/halixon"
+        unit_of_measurement: "kWh"
+        value_template: "{{ value_json.meter_export }}"
+        suggested_display_precision: 3
+        state_class: total_increasing
+        device_class: energy
+        
+    - sensor:
+        name: "Utility Import"
+        state_topic: "/halixon"
+        unit_of_measurement: "kWh"
+        value_template: "{{ value_json.meter_import }}"
+        suggested_display_precision: 3
+        state_class: total_increasing
+        device_class: energy
+```
+
+Then you can add the sensors to the dashboard:
+
+```
+type: entities
+entities:
+  - entity: sensor.utility_export
+    name: Export
+    secondary_info: none
+  - entity: sensor.utility_import
+    name: Import
+    secondary_info: none
+title: Utility Meter Registers
+```
+
+```
+type: vertical-stack
+cards:
+  - type: statistic
+    entity: sensor.utility_export
+    period:
+      calendar:
+        period: day
+    stat_type: change
+    name: Energy Exported (Today)
+  - type: statistic
+    entity: sensor.utility_import
+    period:
+      calendar:
+        period: day
+    stat_type: change
+    name: Energy Imported (Today)
+```
+
+

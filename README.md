@@ -115,7 +115,7 @@ You need to install Mosquitto MQTT Broker and add the following sensors to your 
 ## Utility Meter Reader ##
 ##########################
 
-
+mqtt:
     - sensor:
         name: "Utility Export"
         state_topic: "/halixon"
